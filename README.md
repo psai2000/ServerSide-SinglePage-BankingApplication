@@ -4,6 +4,11 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To view this project:
+- Install React App (React 18)
+- Install Node Modules 
+- Install React Testing library or Jest Testing library.
+- Firstly run `npm start` and then run backend json server from command prompt `Json-server db.json --watch` you are good to go 😀
 
 ## Available Scripts
 
