@@ -1,0 +1,189 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+      "name": "John",
+      "bankName": "CITRUS-CTS",
+      "refNo": "57897689876",
+      "date": "21 May 2019",
+      "type": "Withdraw",
+      "card_number": "4989 2242 1176 8848",
+      "dueAmount": 21234
+    },
+    {
+      "id": 2,
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+      "name": "Abhay",
+      "bankName": "CITRUS-CTS",
+      "refNo": "57897689876",
+      "date": "30 June 2020",
+      "type": "Deposit",
+      "card_number": "",
+      "dueAmount": 69000.98
+    },
+    {
+      "id": 3,
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+      "name": "Vijay",
+      "bankName": "CITRUS-CTS",
+      "refNo": "57897689876",
+      "date": "11 January 2009",
+      "type": "IMPC",
+      "card_number": "6543 9876 1100 9898",
+      "dueAmount": 21234
+    },
+    {
+      "id": 4,
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+      "name": "Sonu",
+      "bankName": "CITRUS-CTS",
+      "refNo": "57897689876",
+      "date": "1 April 2014",
+      "type": "Deposit",
+      "card_number": "6543 9876 1100 9898",
+      "dueAmount": 16543
+    },
+    {
+      "id": 5,
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+      "name": "Mohan",
+      "bankName": "CITRUS-CTS",
+      "refNo": "57897689876",
+      "date": "21 May 2019",
+      "type": "Withdraw",
+      "card_number": "6543 9876 1100 9898",
+      "dueAmount": 21234
+    },
+    {
+      "id": 6,
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+      "name": "Vaneet",
+      "bankName": "CITRUS-CTS",
+      "refNo": "57897689876",
+      "date": "21 May 2019",
+      "type": "IMPC",
+      "card_number": "4989 2242 1176 8848",
+      "dueAmount": 21234
+    },
+    {
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+      "name": "Sai",
+      "bankName": "ICICI Bank",
+      "refNo": "66666666666",
+      "date": "9 April 2019",
+      "type": "Withdraw",
+      "narration": "",
+      "dueAmount": 19998,
+      "amount": "NEFT",
+      "id": 7
+    },
+    {
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+      "name": "Sai",
+      "bankName": "ICICI Bank",
+      "refNo": "66666666666",
+      "date": "9 April 2019",
+      "type": "Withdraw",
+      "narration": "john",
+      "dueAmount": "40",
+      "amount": "NEFT",
+      "id": 8
+    },
+    {
+      "img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+      "name": "Sai",
+      "bankName": "ICICI Bank",
+      "refNo": "66666666666",
+      "date": "9 April 2019",
+      "type": "Withdraw",
+      "narration": "john",
+      "dueAmount": "2000",
+      "amount": "NEFT",
+      "id": 9
+    }
+  ],
+  "cards": [
+    {
+      "number": "4989 2242 1176 8848",
+      "type": "Platinum",
+      "amount": 4566.78,
+      "id": 1
+    },
+    {
+      "number": "7642 1189 0000 7006",
+      "type": "Premium Platinum",
+      "amount": 0,
+      "id": 2
+    },
+    {
+      "number": "6543 9876 1100 9898",
+      "type": "Premium",
+      "amount": 2143.78,
+      "id": 3
+    }
+  ],
+  "fund-transfer": [
+    {
+      "beneficiaryId": 1,
+      "name": "John",
+      "bankName": "HDFC",
+      "place": "Kolkata",
+      "bankIFSC": "HDFC00120120",
+      "avatarPath": "https://img.icons8.com/bubbles/100/000000/administrator-male.png"
+    },
+    {
+      "beneficiaryId": 2,
+      "name": "Carl",
+      "bankName": "ICICI",
+      "place": "Indore",
+      "bankIFSC": "ICIC0021890",
+      "avatarPath": "https://img.icons8.com/bubbles/100/000000/administrator-male.png"
+    },
+    {
+      "beneficiaryId": 3,
+      "name": "Emily",
+      "bankName": "HDFC",
+      "place": "Kolkata",
+      "bankIFSC": "HDFC00120120",
+      "avatarPath": "https://img.icons8.com/bubbles/100/000000/administrator-male.png"
+    },
+    {
+      "beneficiaryId": 4,
+      "name": "Rohit",
+      "bankName": "HDFC",
+      "place": "Delhi",
+      "bankIFSC": "HDFC0012323220",
+      "avatarPath": "https://img.icons8.com/bubbles/100/000000/administrator-male.png"
+    },
+    {
+      "beneficiaryId": 5,
+      "name": "Dim",
+      "bankName": "PNB",
+      "place": "Kolkata",
+      "bankIFSC": "PNB00305674",
+      "avatarPath": "https://img.icons8.com/bubbles/100/000000/administrator-male.png"
+    },
+    {
+      "beneficiaryId": 6,
+      "name": "John",
+      "bankName": "HDFC",
+      "place": "Kolkata",
+      "bankIFSC": "HDFC00120120",
+      "avatarPath": "https://img.icons8.com/bubbles/100/000000/administrator-male.png"
+    },
+    {
+      "beneficiaryId": 7,
+      "name": "Mohan",
+      "bankName": "HDFC",
+      "place": "Kolkata",
+      "bankIFSC": "HDFC00120120",
+      "avatarPath": "https://img.icons8.com/bubbles/100/000000/administrator-male.png"
+    }
+  ],
+  "beneficiary": [
+    {
+      "accountNumber": "12345678900"
+    }
+  ]
+}
