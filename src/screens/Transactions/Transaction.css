@@ -1,0 +1,41 @@
+.transaction {
+  border-collapse: separate;
+  border-spacing: 0rem;
+}
+
+.transaction__pagination {
+  position: sticky;
+  bottom: 0;
+  height: 3rem;
+}
+
+.transaction__header {
+  position: sticky;
+  top: 0;
+}
+
+.transaction__header--search {
+  width: 13rem;
+  height: 2rem;
+  margin-top: -2rem;
+  float: right;
+  margin-bottom: -0.2rem;
+}
+
+.transaction__tablebody-yellow {
+  background-color: #ffc107;
+  padding: 0.5rem;
+}
+
+.transaction__tablebody-blue {
+  background-color: #007bff;
+  padding: 0.5rem;
+}
+
+.transaction__tablebody--banknamesize {
+  font-size: 1rem;
+}
+
+.transaction__tablebody--refsize {
+  font-size: 0.8rem;
+}

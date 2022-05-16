@@ -1,0 +1,26 @@
+.fund {
+  border-collapse: separate;
+  border-spacing: 0rem;
+}
+
+.fund__line {
+  margin-top: auto;
+}
+.fund__component {
+  float: right;
+  margin-bottom: 0.2rem;
+}
+.fund__btn {
+  width: 65%;
+  margin-right: 0.625rem;
+}
+.fund__searchbar {
+  width: 100%;
+  margin-bottom: auto;
+  margin-right: 2rem;
+}
+
+.fund__totalBeneficiaries {
+  margin-bottom: -2rem;
+  font-size: 1rem;
+}

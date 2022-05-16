@@ -1,0 +1,22 @@
+.dashboard-account-summary {
+    border: 1px solid var(--primary-color);
+}
+
+.text-color {
+    color: var(--secondary-color);
+    font-size: 2.3rem;
+    margin-top: -0.7rem;
+}
+
+@media screen and (max-width: 840px) {
+    .text-color {
+        font-size: 1.5rem;
+        margin-top: -0.3rem;
+    }
+    .title {
+        font-size: 0.8rem;
+    }
+    .subtitle {
+        font-size: 0.8rem;
+    }
+}

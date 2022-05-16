@@ -1,0 +1,42 @@
+.card-body{
+  height: 22rem;
+  margin-top: -1rem;
+}
+
+.cards_icon {
+  float: right;
+  height: 2rem;
+  margin-top: -2.5rem;
+}
+
+.cards_inr {
+  color: #ee4d5a;
+  font-size: x-large;
+}
+
+.cards_detail {
+  background-color: white;
+  color: #007bff;
+  margin-top: 1.5rem;
+}
+
+.cards_submit {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+
+.cards_ctype {
+  margin-top: -0.5rem;
+}
+
+.cards_type {
+  margin-bottom: 0.625rem;
+  font-weight: bold;
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  margin-left: -1rem;
+}
+

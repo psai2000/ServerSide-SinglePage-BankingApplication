@@ -1,0 +1,31 @@
+.fallback {
+  background-color: #4796F1;
+  height: 100vh;
+}
+
+.fallback__title {
+  padding: 2em 2em 2em 0em;
+  color: white;
+  margin: auto;
+}
+
+.linear-progress {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  margin: auto;
+}
+
+.C-Bank__logo{
+  color: white;
+  font-size: 3.125em;
+  font-weight: bold;
+}
+
+.C-Bank__logo::before{
+  content: 'C';
+  color: #fc628f;
+}

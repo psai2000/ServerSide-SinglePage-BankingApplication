@@ -1,0 +1,74 @@
+.dashboard {
+  line-height: 1.8;
+  font-family: "Roboto", sans-serif;
+  color: #555e58;
+  font-weight: 200;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.dashboard__credit {
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+  margin-right: -5.5rem;
+  display: block;
+}
+.dashboard__credit .layout__bills-cards__card {
+  max-height: 22rem;
+  width: 80%;
+  border-radius: 0;
+}
+.dashboard__transactions {
+  padding-top: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+.dashboard__transactions #transaction-table {
+  max-height: 22rem;
+  overflow: scroll;
+}
+
+.dashboard__transactions #table-head {
+  margin-top: -0.5rem;
+}
+
+.dashboard__transactions::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+  display: none;
+}
+
+#transaction-table::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+  display: none;
+}
+
+#benificiary-table::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+  display: none;
+}
+
+.funds__table {
+  margin-top: -2.9rem;
+}
+.dashboard__funds #benificiary-table {
+  max-height: 24rem;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 1180px) {
+  .dashboard__credit {
+    margin-top: -1.5rem;
+    margin-right: -4.5rem;
+    margin-left: -5rem;
+    width: 90%;
+  }
+  .bills__small-screen {
+    margin-top: -1.5rem;
+  }
+}

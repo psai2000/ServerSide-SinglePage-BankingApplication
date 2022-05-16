@@ -1,0 +1,49 @@
+.bill-recharge__form {
+  height: 19rem;
+}
+
+.bill-recharge__form label {
+  margin-top: 1rem;
+}
+
+.bill-recharge__input {
+  margin-bottom: 0.25rem;
+}
+
+.bills-recharge__paynow {
+  margin: 2rem;
+}
+
+.bills__icon {
+  float: right;
+  height: 2rem;
+  position: relative;
+  bottom: 2rem;
+}
+.swal-button:focus {
+  outline:none;
+  box-shadow: 0 0 0 0.0825rem #90b7e4, 0 0 0 0.2275rem #b8d7fa;
+}
+
+.swal-button--confirm {
+  background-color: #3080db;
+}
+
+.swal-button--cancel {
+  color: #3080db;
+  background-color: white;
+  border-color: #3080db;
+  border-width: 0.0625rem;
+  border-style: solid;
+}
+
+.swal-button--confirm:not([disabled]):hover {
+  background-color: #0d63c5;
+  transition-duration: 0.3s;
+}
+
+.swal-button--cancel:not([disabled]):hover {
+  background-color: #3080db;
+  color: white;
+  transition-duration: 0.25s;
+}

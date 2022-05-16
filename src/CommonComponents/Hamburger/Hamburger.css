@@ -1,0 +1,78 @@
+.hamburger__topnav {
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 1.2rem;
+}
+
+.display__hamburger {
+  display: block;
+}
+
+.display__none {
+  display: none;
+}
+
+.navlinks a .hamburger__topnav a:hover {
+  text-decoration: none;
+}
+
+.navlinks a:hover,
+.navlinks a:active,
+.navlinks a.active {
+  background-color: var(--secondary-color);
+}
+
+.hamburger__topnav a {
+  border-bottom: rgb(190, 187, 187) solid 1px;
+  color: black;
+  padding: 0.875rem;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 1.25rem;
+  display: block;
+  background-color: var(--primary-color);
+}
+
+.hamburger__topnav a.hamburger__icon {
+  display: block;
+  position: absolute;
+}
+
+.hamburger__topnav a.active {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.hamburger__link {
+  height: 3.75rem;
+  width: 1.5rem;
+  top: 1rem;
+}
+
+#hamburger__hamicon {
+  background-color: var(--secondary-color);
+}
+
+#hamburger__hamicon:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.hamburger__nav-icon {
+  position: relative;
+  top: 0.313rem;
+}
+
+.hamburger__icon-i {
+  position: relative;
+  top: -0.313rem;
+}
+
+@media screen and (min-width: 1058px) {
+  .hamburger__topnav {
+    display: none;
+  }
+}

@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  height: 5rem;
+  font-size: 3rem;
+  background-color: #4796f1;
+  font-weight: bold;
+}
+
+.header__label {
+  color: white;
+  padding: 0rem 0rem 0.3rem 1rem;
+  align-self: center;
+  flex-grow: 1;
+}
+
+.header__label::before {
+  content: "C";
+  color: #fc628f;
+}
+
+.header__icon-wrapper {
+  padding-top: 0.5rem;
+  margin-right: 2rem;
+  position: relative;
+}
+
+.header__icon {
+  font-size: 3rem;
+  color: white;
+}
+
+.header__icon:focus {
+  border-radius: 50%;
+  background-color: #01418a;
+}
+
+.header__icon:hover {
+  cursor: pointer;
+}
+
+.header__user-icon {
+  color: black;
+}
+
+.header__user-icon:focus{
+  background-color: white;
+}
+
+.header__caret-down {
+  font-size: 1rem;
+  position: absolute;
+  top: 2rem;
+}
+
+/* Media query at size 1058px for hamburger menu */
+
+@media screen and (max-width: 1058px) {
+  .header__label {
+    padding-left: 3.2rem;
+  }
+}

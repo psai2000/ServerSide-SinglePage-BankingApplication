@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: #4796F1;
+}
+
+.error {
+  color: red;
+}
