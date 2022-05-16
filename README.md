@@ -1,3 +1,6 @@
+# Iterative-Project Banking Application
+![C-Bank-Front-End](https://user-images.githubusercontent.com/103626645/168527188-ed7cfa37-ad33-45d6-87a5-783f8beeffab.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
