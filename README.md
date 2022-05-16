@@ -1,5 +1,5 @@
 # Iterative-Project Banking Application
-![C-Bank-Front-End](https://user-images.githubusercontent.com/103626645/168527188-ed7cfa37-ad33-45d6-87a5-783f8beeffab.png)
+![C-Bank-Front-End](https://user-images.githubusercontent.com/103626645/168527494-49151918-60fd-4006-a106-ecac6cedacde.png)
 
 # Getting Started with Create React App
 
